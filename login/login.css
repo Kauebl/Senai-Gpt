@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+
+
+
+
+}
+
+
 /* 
 .titulo{
 
@@ -14,7 +26,55 @@ font-size: 76px;
 
 h1 {
 
-font-size: 76px;
-font-family: "Inter";
+   font-size: 76px;
+   font-family: "Inter";
+   font-weight: normal;
+   margin-bottom: 16px;
+
+}
+
+.inpt {
+
+   border-radius: 10px;
+   padding: 18px;
+   /* Espaçamento interno */
+   border: none;
+   /* Remove a borda  */
+   background-color: #F7F9FB;
+   width: 377px;
+   /*largura*/
+   margin-bottom: 16px;
+}
+
+.btn {
+
+   padding: 18px;
+   background-color: black;
+   color: #F7F9FB;
+   border: none;
+   /*altura*/
+   width: 377px;
+   /*largura*/
+   border-radius: 10px;
+   /*arredondar as bordas*/
+
+
+
+}
+
+.login-container {
+
+
+display: flex;
+flex-direction: column; /* deixa em colunas */
+align-items: center; /* horizontal */
+justify-content: center; /* horizontal */
+height: 100vh;
+
+}
+
+.logo {
+
+   height: 60px;
 
 }
