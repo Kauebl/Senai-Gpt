@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
    padding: 0px;
    margin: 0px;
    box-sizing: border-box;
@@ -24,9 +24,10 @@ font-size: 76px;
 
 } */
 
-.page-container{
+.page-container {
 
-display: flex;
+   display: flex;
+   background-color: #f0f0f0; /* Define a cor de fundo como um cinza claro */
 
 }
 
@@ -46,7 +47,7 @@ h1 {
    /* Espaçamento interno */
    border: none;
    /* Remove a borda  */
-   background-color: #F7F9FB;
+   background-color:#ff0000;
    width: 377px;
    /*largura*/
    margin-bottom: 16px;
@@ -71,17 +72,20 @@ h1 {
 .login-container {
 
 
-display: flex;
-flex-direction: column; /* deixa em colunas */
-align-items: center; /* horizontal */
-justify-content: center; /* horizontal */
-height: 100vh;
-width: 50vw;
+   display: flex;
+   flex-direction: column;
+   /* deixa em colunas */
+   align-items: center;
+   /* horizontal */
+   justify-content: center;
+   /* horizontal */
+   height: 100vh;
+   width: 50vw;
 
 }
 
 
- 
+
 
 .logo {
 
@@ -92,11 +96,11 @@ width: 50vw;
 
 .robo-image {
 
-background-image:url("../assets/Rectangle\ 1\ \(2\).png");
-background-size: cover; 
+   background-image: url("../assets/Rectangle\ 1\ \(2\).png");
+   background-size: cover;
 
-width: 50vw;
-height: 100vh;
+   width: 50vw;
+   height: 100vh;
 
 
 }
